@@ -45,6 +45,7 @@ enum MovieError: Error, CustomNSError {
         case .invalidResponse: return "Invalid response"
         case .noData: return "No data"
         case .serializationError: return "Failed to decode data"
+        default: return "Unknown error"
         }
     }
     
@@ -53,4 +54,3 @@ enum MovieError: Error, CustomNSError {
     }
     
 }
-

@@ -157,3 +157,8 @@ struct MovieVideo: Decodable, Identifiable {
         return URL(string: "https://youtube.com/watch?v=\(key)")
     }
 }
+
+struct TestStruct {
+
+    let test: String
+}
